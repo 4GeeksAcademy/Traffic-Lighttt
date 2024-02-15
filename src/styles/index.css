@@ -16,6 +16,7 @@ body {
     background-color: black;
     display: flex;
     flex-direction: column;
+    border-radius: 15px;
 }
 .luz {
     margin: auto;
@@ -34,8 +35,8 @@ body {
 }
 
 .brillo {
-    -webkit-box-shadow: 10px 10px 166px -5px rgba(243,255,173,1);
--moz-box-shadow: 10px 10px 166px -5px rgba(243,255,173,1);
-box-shadow: 10px 10px 166px -5px rgba(243,255,173,1);
+    -webkit-box-shadow: 10px 10px 166px -5px rgb(0, 196, 134);
+-moz-box-shadow: 10px 10px 166px -5px rgb(0, 141, 229);
+box-shadow: 10px 10px 166px -5px rgb(0, 224, 224);
 
 }

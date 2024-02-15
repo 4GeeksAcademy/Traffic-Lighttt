@@ -1,5 +1,5 @@
 import React, {useState} from "react"
-import Semaforo from "./Semaforo.jsx";
+
 
 
 
