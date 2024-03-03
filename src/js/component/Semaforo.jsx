@@ -27,7 +27,6 @@ const Semaforo = () => {
 		
 	}, [color, on]) //esta pendiente de los cambios de el "on" y el "color"
 
-
 	return <>
 		<div className='palo'></div>
 
@@ -49,7 +48,5 @@ const Semaforo = () => {
 
 		{ on == true && <button onClick={() => setOn(false)} className="btn btn-success">Manual!</button>}
 	</>
-
 }
-
 export default Semaforo
